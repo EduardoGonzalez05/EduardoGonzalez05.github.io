@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="encrypt.js"></script>
+</head>
+<body>
+    <header>
+        <img class = logo src="imagenes/Logo.png">
+        <input 
+        id = "aviso" 
+        type="text" 
+        value="Ingrese el texto aquí">
+        </input>
+    </header>
+    <main>
+        <div class = "warning">
+            <img src="imagenes/exclamation.png">
+            <p>Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class = "botones">
+            <button type = "button" id = "botone">Encriptar</button>
+            <button type = "button" id = "botond">Desencriptar</button>
+            <button type = "button" id = "copiar">Copiar</button>
+        </div>
+    </main>
+    <aside id = "rectangulo">
+        <div id="rectFinal">
+        </div>
+        <div id="rectInicial">
+            <img class = "muneco" src="imagenes/Muneco.png">
+            <p1>Ningun mensaje fue encontrado</p1>
+            <p2>Ingresa el texto que desees encriptar o desencriptar</p2>
+        </div>
+    </aside>
+    <footer>
+        <p><em>Desarrollado por Eduardo González</em></p>
+    </footer> 
+</body>
+<script src="encrypt.js"></script>
+</html>
